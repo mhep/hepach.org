@@ -23,6 +23,12 @@ h2 {
 	margin: 2em 0 0.5em 0;
 	
 }
+
+ul {
+	margin: 0 0 1em 0;
+	
+}
+
 a:link {
   color: #000000;
   background-color: #F2F8F7;
