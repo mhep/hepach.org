@@ -1,6 +1,6 @@
 body {
-  color: #333;
-  background: #cdb3d8;
+  color: #ffffff;
+  background: #000000;
   font-family: helvetica, arial, sans-serif;
   line-height: 1.5;
   margin: 0 auto;
@@ -16,7 +16,7 @@ h1 {
 	margin: 3em 0 1em 0;
 	font-variant: small-caps;
 	font-size: 40pt;
-	color: #ffe996;
+	color: ;
 }
 
 h2 {
@@ -30,17 +30,17 @@ ul {
 }
 
 a:link {
-  color: #ffe996;
+  color: #527FF4;
   /*background-color: #F2F8F7;*/
     font-style: normal;
 	  font-variant: normal;
 	  text-decoration: none;
 }
 a:visited {
-  color: #ffe996;
+  color: #527FF4;
 }
 a:focus, a:hover {
-  color: #000000;
+  color: #ffffff;
 }
 a:active {
   color: #ffe996;
