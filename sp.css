@@ -16,7 +16,7 @@ h1 {
 	margin: 3em 0 1em 0;
 	font-variant: small-caps;
 	font-size: 40pt;
-	color: #ffe995;
+	color: #ffe996;
 }
 
 h2 {
@@ -30,20 +30,20 @@ ul {
 }
 
 a:link {
-  color: #000000;
-  background-color: #F2F8F7;
+  color: #ffe996;
+  /*background-color: #F2F8F7;*/
     font-style: normal;
 	  font-variant: normal;
 	  text-decoration: none;
 }
 a:visited {
-  color: #000000;
+  color: #ffe996;
 }
 a:focus, a:hover {
   color: #000000;
 }
 a:active {
-  color: #000000;
+  color: #ffe996;
 }
 h1 a:empty:before, h2 a:empty:before, h3 a:empty:before,
 h4 a:empty:before, h5 a:empty:before, h6 a:empty:before {
