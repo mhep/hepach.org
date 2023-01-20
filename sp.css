@@ -59,7 +59,9 @@ h4:hover a:empty, h5:hover a:empty, h6:hover a:empty {
   visibility: visible;
 }
 img {
-  max-width: 100%;
+  max-width: 30%;
+margin: 2em 0 0.5em 0;
+  
 }
 figure {
   margin: 1em 0;
