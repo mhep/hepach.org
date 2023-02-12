@@ -31,14 +31,14 @@ ul {
 }
 
 a:link {
-  color: #527FF4;
+  color: #355EFF;
   /*background-color: #F2F8F7;*/
     font-style: normal;
 	  font-variant: normal;
 	  text-decoration: none;
 }
 a:visited {
-  color: #527FF4;
+  color: #355EFF;
 }
 a:focus, a:hover {
   color: #ffffff;
