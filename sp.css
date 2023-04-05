@@ -33,20 +33,20 @@ ul {
 }
 
 a:link {
-  color: #355EFF;
+  color: #007FFF;
   /*background-color: #F2F8F7;*/
     font-style: normal;
 	  font-variant: normal;
 	  text-decoration: none;
 }
 a:visited {
-  color: #355EFF;
+  color: #007FFF;
 }
 a:focus, a:hover {
   color: #ffffff;
 }
 a:active {
-  color: #ffe996;
+  color: #007FFF;
 }
 h1 a:empty:before, h2 a:empty:before, h3 a:empty:before,
 h4 a:empty:before, h5 a:empty:before, h6 a:empty:before {
