@@ -111,6 +111,13 @@ th, td {
   padding: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        display: block;
+    }
+}
+
 /* 
 @media (prefers-color-scheme: dark) {
   body {
