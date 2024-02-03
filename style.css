@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background: #dddddd;
+  font-family: 'Varela Round', sans-serif;
+}
+
+p.subtitle {
+	padding: 0 0 50px 0;}
+
+p.solid {
+	border-style: solid;
+	padding: 10px 10px;}
+
+h1 {
+	font-size: 45px;
+}
+
+h2 {
+  padding: 10px 0;
+}
+
+h3 {
+}
+
+a {
+  color: inherit; /* Inherits the color from the parent element */
+  text-decoration: underline; /* Underlines the link */
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* Enable horizontal scrolling for the container */
+  min-width: calc(
+    6 * (12cm + 2px)
+  ); /* Calculate minimum width based on column count and width */
+}
+
+.column {
+  flex: 0 0 12cm; /* Flex grow, flex shrink, flex basis */
+  margin-right: 2px; /* Gutter space between columns */
+  background-color: #dddddd; /* Example background color */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Remove margin for the last column */
+.column:last-child {
+  margin-right: 0;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    overflow-x: hidden; /* Disable horizontal scrolling for mobile */
+    min-width: 0; /* Reset minimum width for mobile */
+  }
+
+  .column {
+    margin-bottom: 2px; /* Gutter for vertical layout */
+    flex-basis: auto; /* Allow columns to adjust their width to content on mobile */
+  }
+
+  .column:last-child {
+    margin-bottom: 0;
+  }
+}

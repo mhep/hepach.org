@@ -5,10 +5,8 @@ body {
   background: #dddddd;
   font-family: 'Varela Round', sans-serif;
   line-height: 1.5;
-  margin: 0 auto;
-  max-width: 40em;
-  padding: 0 1em;
-  padding-bottom: 10em;
+  padding: 5% ;
+  max-width: 500px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -110,47 +108,3 @@ th, td {
   border: 5px solid black;
   padding: 10px;
 }
-
-@media screen and (max-width: 768px) {
-    body {
-        width: 100%;
-	max-width: 100%;
-        display: block;
-    }
-}
-
-/* 
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #111;
-    color: #bbb;
-  }
-  a:link {
-    color: #9bf;
-  }
-  a:visited {
-    color: #caf;
-  }
-  a:focus, a:hover {
-    color: #9cf;
-  }
-  a:active {
-    color: #faa;
-  }
-  pre, code, samp, kbd {
-    color: #6cf;
-  }
-  pre kbd {
-    color: #9c6;
-  }
-  pre, blockquote {
-    background: #000;
-  }
-  blockquote {
-    border-color: #333;
-  }
-  th, td {
-    border-color: #666;
-  }
-}
-*/ 
