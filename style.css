@@ -37,13 +37,13 @@ a {
   flex-wrap: nowrap;
   overflow-x: auto; /* Enable horizontal scrolling for the container */
   min-width: calc(
-    6 * (12cm + 2px)
+    4 * (12cm + 2px)
   ); /* Calculate minimum width based on column count and width */
 }
 
 .column {
   flex: 0 0 12cm; /* Flex grow, flex shrink, flex basis */
-  margin-right: 2px; /* Gutter space between columns */
+  margin-right: 10px; /* Gutter space between columns */
   background-color: #dddddd; /* Example background color */
   padding: 10px;
   box-sizing: border-box;
